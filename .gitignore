@@ -1,0 +1,40 @@
+# User-supplied ROMs, BIOS, and runtime snapshots (never commit)
+port/data/
+data/
+roms/
+bios/
+*.bin
+*.rom
+*.cp
+*.enc
+*.sta
+*.dmp
+
+# Locally generated SH-2 AOT translation derived from user's own ROM
+port/src/sh2_aot_twcup98.cpp
+
+# Build outputs
+port/build-native-g4/
+port/build-wasm-g4/
+build/
+dist/
+out/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+*.wasm
+*.ilk
+*.exp
+
+# Python / Node / OS
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
